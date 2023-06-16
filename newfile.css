@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.manish {
+    background-image: url(./coffee_book_windowsill.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    background-color: tomato;
+}
+
+nav ul {
+    background-color: aliceblue;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 12px;
+    margin: 12px 34px;
+    transform: translateX(945px);
+    transition: 0.6s all;
+    font-size: 23px;
+}
+
+nav ul li:hover {
+    color: yellow;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+
+
+}

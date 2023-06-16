@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+
+}
+
+.banner-part{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./pexels-rachel-claire-4825701.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}

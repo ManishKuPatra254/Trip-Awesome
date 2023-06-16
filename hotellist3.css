@@ -1,0 +1,130 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    padding: 0 1.5rem;
+}
+
+.container {
+    margin-top: -93px;
+}
+
+.container h2 {
+    letter-spacing: 1px;
+    font-size: 60px;
+    color: #6968aa;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 132px;
+}
+
+.blog-post {
+    width: 100%;
+    max-width: 98rem;
+    padding: 5rem;
+    background-color: #dbf4ff21;
+    box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: .8rem;
+    margin: 10px;
+}
+
+#hotelname{
+    font-size: 34px;
+    white-space: 6px;
+}
+
+.bxs-star{
+    color: gold;
+    font-size: 20px;
+}
+
+.fa-location-dot{
+    color: black;
+    font-size: 17px;
+    position: relative;
+    top: 35px;
+    right: 261px;
+    word-spacing: 3px;
+}
+
+.fa-location-dot span{
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: #04a6bd;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+.blog-post_img {
+    min-width: 35rem;
+    max-width: 35rem;
+    height: 30rem;
+    transform: translateX(-8rem);
+    position: relative;
+}
+
+.blog-post_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .8rem;
+    display: block;
+}
+
+.blog-post_img img::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: .5rem .5rem 3rem 1px rgba(0, 0, 0, 0.5);
+    border-radius: .8rem;
+}
+
+.blog-post_text {
+    position: relative;
+    top: 19px;
+    font-size: 1.4rem;
+    color: #000000b3;
+}
+
+.blog-post_cta {
+    display: inline-block;
+    position: relative;
+    top: 55px;
+    text-align: center;
+    width: 50%;
+    font-family: 'Paytone One', sans-serif;
+    padding: 1.5rem 3rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    border-radius: .8rem;
+    background-color: #6968aa;
+    transition: all .9ms ease-in-out;
+}
+
+.blog-post_cta:hover {
+    background-color: #474661;
+    transition: all .9ms ease-in-out;
+}
